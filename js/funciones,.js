@@ -1,6 +1,6 @@
 
 
-const url = 'http://localhost:8085/api/roles'
+const url = 'https://api-proyecto-s544.onrender.com/api/roles'
 const listarRoles = async() => {
     let respuesta = ''
     let body = document.getElementById('contenido')

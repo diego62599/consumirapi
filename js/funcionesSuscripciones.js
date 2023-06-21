@@ -1,4 +1,4 @@
-const url = 'http://localhost:8085/api/suscripciones'
+const url = 'https://api-proyecto-s544.onrender.com/api/suscripciones'
 const listarSuscripciones = async() => {
     let respuesta = ''
     let body = document.getElementById('contenido')
